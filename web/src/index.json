@@ -1,0 +1,311 @@
+{
+	"layout": "home.njk",
+	"page": {
+		"title": "ServerlessDays China - Home",
+		"description": "One Day. One Track. One Community",
+		"url": "https://China.serverlessdays.io",
+		"image": "https://res.cloudinary.com/serverlessdays/image/upload/v1560353326/China/2019/serverlessdays_card.jpg"
+	},
+	"eventDetails": {
+		"name": "china",
+		"description": "Let's get Serverless",
+		"startDate": "19 June 2020",
+		"endDate": "19 June 2020",
+		"logo": "https://res.cloudinary.com/serverlessdays/image/upload/v1528146521/serverless_white_new.svg",
+		"hero": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/bgccc.png",
+		"tagline": "One Day. One Track. One Community",
+		"cta": {
+			"path": "/tickets/",
+			"name": "Get Tickets"
+		},
+		"altCTA": {
+			"path": "https://wj.qq.com/s2/5893234/ccd0/",
+			"name": "Call For Proposals"
+		}
+	},
+	"sponsors": {
+		"platinum": [
+			{
+				"img": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/logoc.png",
+				"alt": "TencentCloud Services",
+				"link": "https://cloud.tencent.com/"
+			}
+		],
+		"gold": [
+      {
+				"img": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/slslogo.png",
+				"alt": "Serverless",
+				"link": "https://serverless.com/"
+      },
+      {
+				"img": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/sqlogo.png",
+				"alt": "TencentCloud Services",
+				"link": "https://cloud.tencent.com/"
+      }
+		],
+		"silver": [
+		],
+		"community": []
+	},
+	"speakers": {
+		"text": "Tencent Cloud will host the first ServerlessDays conference in China. We will invite top experts, development platforms and first-line practitioners from major international communities to explain the trends of Serverless forewords for developers, and share the experience of serverless technology landing.",
+		"text1": "We are also preparing for hands-on laboratory evening activities. We believe in and value the power of hands-on practice. In hands-on practice, developers can learn about serverless development-related knowledge and master how to quickly develop services based on serverless.",
+		"lineup": [
+			{
+				"img": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/yunong.png",
+				"alt": "Yunong",
+				"link": "/speakers/Yunong"
+			},
+			{
+				"img": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/aus.png",
+				"alt": "Austen",
+				"link": "/speakers/Austen"
+			}
+		]
+	},
+	"agenda": [
+     {
+        "time": "9:00",
+        "name": "Sign-in",
+        "type": "break"
+    },
+    {
+        "time": "9:10",
+        "name": "ServerlessDays",
+        "speaker": [
+            {
+                "name": "TencentServerless Team"
+            }
+        ],
+        "type": "talk"
+    },
+    {
+        "time": "09:20",
+        "name": "Keynote",
+        "title": "Keynote",
+        "abstract": "Keynote",
+        "speaker": [
+            {
+                "name": "Inviting",
+                "link": "#"
+            }
+        ],
+        "type": "keynote"
+    },
+    {
+        "time": "09:30",
+        "name": "Keynote",
+        "title": "Keynote",
+        "abstract": "",
+        "speaker": [
+            {
+                "name": "Inviting",
+                "link": "#"
+            }
+        ],
+        "type": "keynote"
+    },
+    {
+        "time": "09:40",
+        "name": "Talk",
+        "title": "Talk",
+        "abstract": "Talk",
+        "speaker": [
+            {
+                "name": "Austen Collins",
+                "link": "/speakers/Austen/"
+            }
+        ],
+        "type": "keynote"
+    },
+    {
+        "time": "10:20",
+        "name": "Talk",
+        "title": "Talk",
+        "abstract": "Talk",
+        "speaker": [
+            {
+                "name": "Yunong Xiao",
+                "link": "/speakers/Yunong/"
+            }
+        ],
+        "type": "keynote"
+    },
+    {
+        "time": "11:00",
+        "name": "Talk",
+        "title": "Talk",
+        "abstract": "Talk",
+        "speaker": [
+            {
+                "name": "Inviting",
+                "link": "#"
+            }
+        ],
+        "type": "keynote"
+    },
+    {
+        "time": "11:30",
+        "name": "Talk",
+        "title": "Talk",
+        "abstract": "Talk",
+        "speaker": [
+            {
+                "name": "Inviting",
+                "link": "#"
+            }
+        ],
+        "type": "keynote"
+    },
+    {
+        "time": "12:00",
+        "name": "Break",
+        "type": "break"
+    },
+    {
+        "time": "13:00",
+        "name": "Talk",
+        "title": "Talk",
+        "abstract": "Talk",
+        "speaker": [
+            {
+                "name": "Inviting",
+                "link": "#"
+            }
+        ],
+        "type": "keynote"
+    },
+    {
+        "time": "13:40",
+        "name": "Talk",
+        "title": "Talk",
+        "abstract": "Talk",
+        "speaker": [
+            {
+                "name": "Inviting",
+                "link": "#"
+            }
+        ],
+        "type": "keynote"
+    },
+    {
+        "time": "14:20",
+        "name": "Lightning Talk",
+        "title": "Lightning Talk",
+        "abstract": "Lightning Talk",
+        "speaker": [
+            {
+                "name": "Inviting",
+                "link": "#"
+            }
+        ],
+        "type": "lightning"
+    },
+    {
+        "time": "14:40",
+        "name": "Lightning Talk",
+        "title": "Lightning Talk",
+        "abstract": "Lightning Talk",
+        "speaker": [
+            {
+                "name": "Inviting",
+                "link": "#"
+            }
+        ],
+        "type": "lightning"
+    },
+    {
+        "time": "15:00",
+        "name": "Lightning Talk",
+        "title": "Lightning Talk",
+        "abstract": "Lightning Talk",
+        "speaker": [
+            {
+                "name": "Inviting",
+                "link": "#"
+            }
+        ],
+        "type": "lightning"
+    },
+    {
+        "time": "15:20",
+        "name": "Lightning Talk",
+        "title": "Lightning Talk",
+        "abstract": "Lightning Talk",
+        "speaker": [
+            {
+                "name": "Inviting",
+                "link": "#"
+            }
+        ],
+        "type": "lightning"
+    },
+    {
+        "time": "15:40",
+        "name": "Talk",
+        "title": "Talk",
+        "abstract": "Talk",
+        "speaker": [
+            {
+                "name": "Inviting",
+                "link": "#"
+            }
+        ],
+        "type": "keynote"
+    },
+    {
+        "time": "16:20",
+        "name": "Talk",
+        "title": "Talk",
+        "abstract": "Talk",
+        "speaker": [
+            {
+                "name": "Inviting",
+                "link": "#"
+            }
+        ],
+        "type": "keynote"
+    },
+    {
+        "time": "16:40",
+        "name": "Talk",
+        "title": "Talk",
+        "abstract": "Talk",
+        "speaker": [
+            {
+                "name": "Inviting",
+                "link": "#"
+            }
+        ],
+        "type": "keynote"
+    },
+    {
+        "time": "17:30",
+        "name": "Closing Remarks",
+        "speaker": [
+            {
+                "name": "TencentServerless Team"
+            }
+        ],
+        "type": "talk"
+    },
+    {
+        "time": "18:30",
+        "name": "Hands-on Workshop",
+        "speaker": [
+            {
+                "name": "TencentServerless Team"
+            }
+        ],
+        "type": "talk"
+    }
+	],
+	"venue": {
+		"text": "Online Tencent VooV Meeting.Tencent VooV Meeting (TVM) is an efficient and reliable video conferencing service powered by Tencent that is built for collaboration. With this product, users can schedule and join meetings, anytime, anywhere, thus eliminating the need to travel and allowing you to be more efficient and productive with your time.",
+		"image": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/logos.png",
+		"cta": {
+			"path": "tickets/",
+			"name": "tickets"
+		}
+	}
+}

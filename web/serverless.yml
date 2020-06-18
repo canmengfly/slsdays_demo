@@ -1,0 +1,16 @@
+org: fullstack
+app: fullstack-serverless-slsdays
+stage: dev
+component: website
+name: fullstack-frontend
+
+inputs:
+  region: ${env:REGION}
+  bucketName: fullstack-serverless-slsdays
+  protocol: https
+  src:
+    src: ./_site
+    hook: npm run build
+    envPath: ./
+    index: index.html
+    error: index.html

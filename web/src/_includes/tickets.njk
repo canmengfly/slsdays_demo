@@ -1,0 +1,55 @@
+---
+layout: base.njk
+---
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://blog-1251746107.cos.ap-guangzhou.myqcloud.com/jquery.serializejson.js"></script>
+
+    
+<div class="ph3 ph0-ns pt4 pt6-ns w-100">
+    <div class="markdown-body mw6-m mw7-l avenir center">
+        {{ content | safe }}
+
+
+
+        <form id="form1" onsubmit="return false" action="##" method="post">
+            <p>Name: <input name="username" type="text" id="txtUserName" tabindex="1" size="15" value=""/></p>
+            <p>Email: <input name="email" type="text" id="txtUserName" tabindex="1" size="15" value=""/></p>
+            <p>Phone: <input name="phone" type="text" id="txtUserName" tabindex="1" size="15" value=""/></p>
+            <p>Company: <input name="company" type="text" id="txtUserName" tabindex="1" size="15" value=""/></p>
+            <p>Poi: <input name="poi" type="text" id="txtUserName" tabindex="1" size="15" value=""/></p>
+            <p>Company_size: <input name="company_size" type="text" id="txtUserName" tabindex="1" size="15" value=""/></p>
+            <p>Message: <input name="message" type="longtext" id="txtUserName" tabindex="1" size="15" value=""/></p>
+            <br>
+            <p><input type="button" class="js-cm-submit-button pointer pv2 ph3 ph4-ns f5 f4-ns no-underline ba br2 b--transparent secondaryConstrastBkg secondaryContrastColor"value="申请门票" onclick="login()">&nbsp;</p>
+        </form>
+        <script type="text/javascript">
+
+                function getUser(){
+                    return JSON.stringify($('#form1').serializeJSON());
+                }
+                function login() {
+                    var data = getUser();
+                    $.ajax({
+                    //几个参数需要注意一下
+                        type: "POST",//方法类型
+                        dataType: "json",//预期服务器返回的数据类型
+                        url: "https://service-igenzxze-1251746107.gz.apigw.tencentcs.com/release/slsdays" ,//url
+                        data: data,
+                        success: function (result) {
+                            console.log(result);//打印服务端返回的数据(调试用)
+                            if (result.resultCode == 200) {
+                                alert("SUCCESS");
+                            }
+                            ;
+                            alert("SUCCESS");
+                        },
+                        error : function() {
+                            alert("异常！");
+                        }
+                    });
+                }
+        </script>
+
+
+    </div> 
+</div>

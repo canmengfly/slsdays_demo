@@ -1,0 +1,51 @@
+---
+layout: base.njk
+---
+<div class="flex-l pt4 pt6-ns w-100 db">
+    <div class="w-auto w-10-l dn db-l">
+    </div>
+    <div class="w-100 w-40-l tc tr-l">
+        <img class="v-top-ns cover shiftRight90-l ph2 w-80 w-70-m w-100-l" src={{ eventDetails.logo }}>
+        <h1 class="avenir mr2 mr5-m pr4 pr5-m pr0-l mt0 tr f3 f2-ns i mv0 mv1-ns shiftRight60-l">{{ eventDetails.name }}</h1>
+        <div class="avenir fw4 f4 pt0 pl3 pl0-ns tc tr-ns shiftRight60-l">
+            <p class="tc tr-l f4 f3-l mv2">{{eventDetails.endDate}}</p>
+        </div>
+    </div>
+    <div class="w-auto w-10-l dn db-l">
+    </div>
+    <div class="w-100 w-40-l tr-l v-top cover pa0">
+        <img src="{{ eventDetails.hero }}" class="w-100 w-auto-l heroImage-l">
+    </div>
+</div>
+<div class="w-100 pa0-m pa3 tc tl-l f4 db mv4 shiftUp240-l" >
+    <div class="flex-l">
+        <div class="w-100 w-05-l dn db-l">
+        </div>
+        <div class="w-100 w-40-l tc tr-m tl-l shiftUp90-m">
+           <a class="pv2 ph2 ph4-l f4 no-underline ba br2 b--transparent contrastBkg contrastColor" href="{{ eventDetails.cta.path }}" target="_blank">{{ eventDetails.cta.name }}</a>
+           <a class="ml2 pv2 ph2 ph4-l f4 no-underline ba br2 b--white mr5-m primaryColor" href="{{ eventDetails.altCTA.path }}" target="_blank">{{ eventDetails.altCTA.name }}</a>
+        </div>
+    </div>
+</div>
+<div class="contrastBkg contrastColor pa3 db w-100">
+    <div class="flex-l mb2">
+        <div class="w-100 w-05-l dn db-l">
+        </div>
+        <div class="w-100 w-auto-ns"> 
+            <p class="fw7 f3 f2-ns mv2 tc tl-l">{{ eventDetails.tagline }}</p>
+        </div>
+    </div>
+</div>
+<div class="absolute-l right-0-l pa2 mr4-l mt6-l tertiaryColor tertiaryBkg ba-l br3-l b--transparent w-100 measure-wide-l">    
+    {% include 'components/sponsors.njk' %}
+</div>
+<div class="w-100 ph1 pv3 pa3-ns tl f4 secondaryColor secondaryBkg">
+    {% include 'components/speakers.njk' %}
+</div>
+<!--<div class="w-100 ph1 pv3 pa3-ns tl f4 primaryColor primaryBkg">
+    {% include 'components/agenda.njk' %}
+</div>-->
+<div class="w-100 ph1 pv3 pa3-ns f5 f4-ns tl f5 f4-ns secondaryContrastColor secondaryConstrastBkg">
+    {% include 'components/venue.njk' %}
+</div>
+{% include 'components/signup.njk' %}

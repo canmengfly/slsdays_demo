@@ -1,0 +1,41 @@
+{
+    "layout": "coc.njk",
+    "page": {
+        "title": "ServerlessDays China - Home",
+        "description": "One Day. One Track. One Community",
+        "url": "https://China.serverlessdays.io/coc",
+        "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1560353326/China/2019/serverlessdays_card.jpg"
+    },
+    "navBarItems": [
+        {
+            "key": "news",
+            "path": "/news",
+            "name": "News"
+        },
+        {
+            "key": "speakers",
+            "path": "/speakers",
+            "name": "Speakers"
+        },
+        {
+            "key": "sponsors",
+            "path": "/sponsors",
+            "name": "Sponsors"
+        },
+        {
+            "key": "coc",
+            "path": "/coc",
+            "name": "Code of Conduct"
+            },
+        {
+            "key": "tickets",
+            "path": "/tickets",
+            "name": "Tickets",
+            "cta": "true"
+        }
+    ],
+    "contact": {
+        "email": "China@serverlessdays.io",
+        "twitter": "https://twitter.com/@serverlessLDN"
+    }
+}

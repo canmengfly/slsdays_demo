@@ -1,0 +1,32 @@
+{
+    "layout": "speaker.njk",
+    "page": {
+        "title": "ServerlessDays China - Yunong Xiao",
+        "description": "General Manager, Principal Architect -- Serverless/Paas/Devops at Tencent Cloud",
+        "url": "https://serverlessdays.io/speakers/alexa",
+        "image": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/yunong.png"
+    },
+    "speaker": {
+        "name": "Yunong Xiao",
+        "title": "General Manager, Principal Architect -- Serverless/Paas/Devops at Tencent Cloud",
+        "img": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/yunong.png",
+        "bio": "Yunong is General Manager and Distinguished Architect of Serverless, Middleware, and Devops at Tencent Cloud.Previously he was leading the architecture of the Netflix API Serverless Platform - making microservices more accessible to developers and enabling container usage at Netflix scale.Earlier he spent his time at AWS and Joyent, where he worked on the distributed systems and helped to shape and build cloud products such as AWS IAM and Triton Object Storage.Yunong received a Bachelors of Applied Science with honors in Computer Engineering from the University of Waterloo.",
+        "talk": {
+            "title": "-",
+            "abstract" : "-"
+        },
+        "social": [
+            {
+                "name": "github",
+                "link": "#",
+                "icon": "https://res.cloudinary.com/serverlessdays/image/upload/c_scale,h_80/v1561357391/GitHub-Mark-Light.png"
+            }
+        ],
+        "links": [
+            {
+                "text": "",
+                "link": ""
+            }
+        ]
+    }
+}

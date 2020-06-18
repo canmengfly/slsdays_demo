@@ -1,0 +1,21 @@
+{
+    "layout": "speakers.njk",
+    "page": {
+        "title": "ServerlessDays China - Speakers",
+        "description": "One Day. One Track. One Community",
+        "url": "https://China.serverlessdays.io/speakers",
+        "image": "https://res.cloudinary.com/serverlessdays/image/upload/v1560353326/China/2019/serverlessdays_card.jpg"
+    },
+    "speakers" :  [
+        {
+            "img": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/yunong.png",
+            "alt": "Yunong Xiao",
+            "link": "/speakers/Yunong"
+        },
+        {
+            "img": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/aus.png",
+            "alt": "Austen Collins",
+            "link": "/speakers/Austen"
+        }
+    ]
+}

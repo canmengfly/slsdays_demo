@@ -1,0 +1,40 @@
+{
+	"layout": "sponsors.njk",
+	"page": {
+		"title": "ServerlessDays China - Sponsors",
+		"description": "One Day. One Track. One Community",
+		"url": "https://China.serverlessdays.io/sponsors",
+		"image": "https://res.cloudinary.com/serverlessdays/image/upload/v1560353326/China/2019/serverlessdays_card.jpg"
+	},
+	"sponsor": {
+		"cta": {
+			"path": "/static/ServerlessDaysChina_SponsorProspectus_20190321.pdf",
+			"name": "Download"
+		}
+	},
+	"sponsors": {
+		"platinum": [
+			{
+				"img": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/logoc.png",
+				"alt": "TencentCloud Services",
+				"link": "https://cloud.tencent.com/"
+			}
+		],
+		"gold": [
+      		{
+				"img": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/slslogo.png",
+				"alt": "Serverless",
+				"link": "https://serverless.com/"
+      		},
+      		{
+				"img": "https://serverlessimg-1253970226.cos.ap-chengdu.myqcloud.com/tmp/sqlogo.png",
+				"alt": "TencentCloud Services",
+				"link": "https://cloud.tencent.com/"
+      		}
+		],
+		"silver": [
+		],
+		"community": [
+		]
+	}
+}

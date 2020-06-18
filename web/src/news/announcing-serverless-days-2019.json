@@ -1,0 +1,9 @@
+{
+    "layout": "post.njk",
+    "page": {
+        "title": "Announcing ServerlessDays China 2019",
+        "description": "The third edition of ServerlessDays China is upon us, new venue, higher capacity, bigger program. Get your Serverless on!",
+        "url": "https://China.serverlessdays.io/news/announcing-serverless-days-2019",
+        "image": "https://China.serverlessdays.io/img/imperial_above.jpg"
+    }
+}

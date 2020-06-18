@@ -1,0 +1,26 @@
+{
+    "navBarItems": [
+        {
+            "key": "speakers",
+            "path": "/speakers",
+            "name": "Speakers"
+        },
+
+        {
+            "key": "sponsors",
+            "path": "/sponsors",
+            "name": "Sponsors"
+        },
+        {
+            "key": "coc",
+            "path": "/coc",
+            "name": "Code of Conduct"
+            },
+        {
+            "key": "tickets",
+            "path": "/tickets",
+            "name": "Tickets",
+            "cta": "true"
+        }
+    ]
+}

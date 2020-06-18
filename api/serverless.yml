@@ -1,0 +1,26 @@
+org: fullstack
+app: fullstack-serverless-slsdays
+stage: dev
+component: scf 
+name: fullstack-serverless-slsdays
+
+inputs:
+  name: fullstack-serverless-slsdays
+  src: ./src
+  runtime: Nodejs10.15
+  region: ${env:REGION}
+  handler: index.main_handler
+  events:
+    - apigw:
+        name: serverless_api
+        parameters:
+          protocols:
+            - http
+            - https
+          serviceName:
+          description: The service of Serverless Framework
+          environment: release
+          endpoints:
+            - path: /
+              method: POST
+              enableCORS: TRUE
