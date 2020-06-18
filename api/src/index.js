@@ -21,9 +21,9 @@ function wrapPromise(connection, sql) {
 exports.main_handler = async (event, context, callback) => {
   const mysql = require('mysql');
   const connection = mysql.createConnection({
-    host     : 'gz-cdb-j1ju5xot.sql.tencentcdb.com',       
+    host     : 'sql.tencentcdb.com',       
     user     : 'root',              
-    password : 'serverless@2019',       
+    password : 'serverless',       
     port: '60454',                   
     database: 'serverless_form'
   });
