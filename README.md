@@ -16,15 +16,22 @@ MySQL：通过引用 MySQL 为全栈网站提供数据库服务。
 安装
 
 通过 npm 全局安装 Serverless Framework：
+
 $ npm install -g serverless
+
 如果之前您已经安装过 Serverless Framework，可以通过下列命令升级到最新版：
+
 $ npm update -g serverless
+
 安装完毕后，通过运行 serverless -v 命令，查看 Serverless Framework 的版本信息， 确保版本信息不低于以下版本：
+
 $ serverless –v
+
 Framework Core: 1.67.3
 Plugin: 3.6.6
 SDK: 2.3.0
 Components: 2.30.1
+
 
 配置
 
@@ -45,6 +52,7 @@ REGION=ap-beijing //资源部署区，该项目中指云函数与静态页面部
 部署
 
 1.执行以下命令进行部署.
+
 $ sls deploy --all
 serverless ⚡ framework
 
