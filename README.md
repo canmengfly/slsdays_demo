@@ -27,10 +27,10 @@ Components: 2.30.1
 serverless create --template-url https://github.com/canmengfly/slsdays_demo
 
 2.在项目模板中找到.env.example 文件，修改名称为.env，并在其中配置对应的腾讯云 SecretId 和 SecretKey 信息、地域可用区及子网等信息。
-# .env
+.env
 TENCENT_SECRET_ID=xxx  // 您账号的SecretId
 TENCENT_SECRET_KEY=xxx // 您账号的SecretKey
-# 地域可用区配置
+地域可用区配置
 REGION=ap-beijing //资源部署区，该项目中指云函数与静态页面部署区
 说明：
 如果没有腾讯云账号，请先 注册新账号。
